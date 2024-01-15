@@ -5,12 +5,12 @@
 <section id="hero" class="pt-[12vh] bg-prime w-full">
   <div class="grid grid-cols-2 gap-8">
     <div class="container pt-[6vh] ">
-      <p class="text-white">Jika Anda pernah menyaksikan atau menjadi korban kejahatan harap lapor kepada kami.</p>
-      <h1 class="text-white">LAPORKAN DI LAPOR.IN!</h1>
-      <p class="text-white/80">Laporan ditangani oleh ruang kendali kami dengan cara yang persis sama, baik Anda melaporkannya secara online atau melalui telepon.</p>
+      <p class="text-white text-xl mb-5">Jika Anda pernah menyaksikan atau menjadi korban kejahatan harap lapor kepada kami.</p>
+      <h1 class="text-white text-5xl mb-5">LAPORKAN DI LAPOR.IN!</h1>
+      <p class="text-white text-xl">Laporan ditangani oleh ruang kendali kami dengan cara yang persis sama, baik Anda melaporkannya secara online atau melalui telepon.</p>
       <div class="flex flex-row mt-[10vh] gap-8">
         <a href="/dashboard/posts/create" id="tutor2" class="buttons bg-button-prime">Buat Laporan</a>
-        <a href="/kerjakami" id="tutor3" class="buttons bg-button-second">Kerja Kami</a>
+        <a href="#kerjakami" id="tutor3" class="buttons bg-button-second">Kerja Kami</a>
       </div>
     </div>
     <div class="w-full">

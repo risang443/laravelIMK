@@ -49,7 +49,7 @@ class DatabaseSeeder extends Seeder
             'slug' => 'terkirim',
         ]);
 
-        Post::factory(20)->create();
+        Post::factory(50)->create();
 
        
     }

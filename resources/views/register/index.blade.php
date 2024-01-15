@@ -50,7 +50,7 @@
               <img src="/images/password.png" alt="" class="w-[2vh]">
             </div>
             <input
-            type="text" required name="password" id="password" placeholder="Password" class="bg-white border border-prime text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5">
+            type="password" required name="password" id="password" placeholder="Password" class="bg-white border border-prime text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5">
             @error('password')
             <p class="peer-invalid:visible text-red-700 font-semibold">
                {{ $message }}
@@ -61,7 +61,7 @@
             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
               <img src="/images/password.png" alt="" class="w-[2vh]">
             </div>
-            <input type="text" required name="password_confirmation" id="password_confirmation" placeholder="Konfirmasi Password" class="bg-white border border-prime text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5">
+            <input type="password" required name="password_confirmation" id="password_confirmation" placeholder="Konfirmasi Password" class="bg-white border border-prime text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5">
             @error('password_confirmation')
             <p class="peer-invalid:visible text-red-700 font-semibold">
                {{ $message }}

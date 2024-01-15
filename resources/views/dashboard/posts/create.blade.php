@@ -61,7 +61,7 @@
                             @enderror
                         </div>
                         <div>
-                            <input type="text" value="{{ old('ttl') }}" autofocus required name="ttl" id="ttl" placeholder="Tanggal Lahir" class="@error('ttl')peer-invalid:visible border-red-700 @enderror peer bg-white border border-prime rounded py-3 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full"/>
+                            <input type="date" value="{{ old('ttl') }}" autofocus required name="ttl" id="ttl" placeholder="Tanggal Lahir" class="@error('ttl')peer-invalid:visible border-red-700 @enderror peer bg-white border border-prime rounded py-3 px-3 block focus:ring-blue-500 focus:border-blue-500 text-gray-700 w-full"/>
                             @error('ttl')
                             <p class="peer-invalid:visible text-red-700">
                                 {{ $message }}
